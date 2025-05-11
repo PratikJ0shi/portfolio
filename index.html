@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect: Pratik</title>
+    <link rel="icon" href="https://res.cloudinary.com/p-desk/image/upload/v1741816272/P-Desk-thumnail.png_hli1ga.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f3f4f6;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            flex-direction: column;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            text-align: center;
+            overflow: hidden;
+            padding-bottom: 20px;
+            transition: transform 0.3s ease;
+            margin-bottom: 20px;
+        }
+        .card:hover {
+            transform: scale(1.02);
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 15px;
+            border: 4px solid #4CAF50;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        h2 {
+            margin: 10px 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .tagline {
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #555;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: #1a73e8;
+        }
+        .portfolio-btn {
+            display: inline-block;
+            margin: 15px 0;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .portfolio-btn:hover {
+            background-color: #45a049;
+        }
+        .contact {
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #4CAF50;
+            padding: 5px 0;
+            color: white;
+            font-size: 0.9em;
+            width: 25%;
+            border-radius: 10px;
+            text-align: center;
+            position: relative;
+        }
+        @media (max-width: 500px) {
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://res.cloudinary.com/p-desk/image/upload/v1740652495/output_tq2b3u.png" alt="Pratik Joshi" class="profile-pic">
+        
+        <h2>Pratik Joshi</h2>
+        <p class="tagline">B.Tech Graduate | Tech Enthusiast</p>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/pratiks-desk" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/profile.pratik/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.pratik" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://pratiks-desk.blogspot.com/" target="_blank"><i class="fab fa-blogger"></i></a>
+            <a href="https://hashnode.com/@pratiks-desk" target="_blank"><i class="fa-brands fa-hashnode"></i></a>
+        </div>
+
+        <a href="https://pratiks-desk.site/" class="portfolio-btn" target="_blank">View Portfolio</a>
+
+        <p class="contact">
+            <a href="mailto:connect.pratikjoshi@gmail.com"><i class="fas fa-envelope"></i>connect.pratikjoshi@gmail.com</a>
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Pratik Joshi. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
