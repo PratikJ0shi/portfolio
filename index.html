@@ -7,18 +7,19 @@
     <link rel="icon" href="https://res.cloudinary.com/p-desk/image/upload/v1741816272/P-Desk-thumnail.png_hli1ga.webp" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
+        *{text-decoration: none;}
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background-color: #f3f4f6;
+           background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
             margin: 0;
             font-family: 'Arial', sans-serif;
             flex-direction: column;
         }
         .card {
-            background-color: #fff;
+          background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             width: 350px;
@@ -31,6 +32,8 @@
         .card:hover {
             transform: scale(1.02);
         }
+        a{color: royalblue;
+            font-weight: bold;}
         .profile-pic {
             width: 150px;
             height: 150px;
@@ -74,6 +77,7 @@
         .contact {
             margin-bottom: 15px;
         }
+
         footer {
             background-color: #4CAF50;
             padding: 5px 0;
@@ -84,6 +88,9 @@
             text-align: center;
             position: relative;
         }
+
+        .contact a:hover{color: blue;}
+
         @media (max-width: 800px) {
             .card {
                 width: 90%;
@@ -115,7 +122,8 @@
         <a href="https://pratiks-desk.site/" class="portfolio-btn" target="_blank">View Portfolio</a>
 
         <p class="contact">
-            <a href="mailto:connect.pratikjoshi@gmail.com"><i class="fas fa-envelope"></i>connect.pratikjoshi@gmail.com</a>
+            <a href="mailto:connect.pratikjoshi@gmail.com"><i class="fas fa-envelope"></i>
+            <span></span>connect.pratikjoshi@gmail.com</a>
         </p>
     </div>
 
